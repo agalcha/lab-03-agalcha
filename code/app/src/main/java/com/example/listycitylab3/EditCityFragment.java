@@ -43,7 +43,6 @@ public class EditCityFragment extends DialogFragment {
         EditText editCityName = view.findViewById(R.id.edit_text_city_text);
         EditText editProvinceName = view.findViewById(R.id.edit_text_province_text);
 
-        // Pre-fill fields with existing values
         editCityName.setText(city.getName());
         editProvinceName.setText(city.getProvince());
 
